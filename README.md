@@ -1,5 +1,7 @@
 ![marca_oficial](https://user-images.githubusercontent.com/101676959/229141607-7304b4b6-f112-4c93-85bf-e7a1b41d2667.png)
 
+Sobre O Cubo - http://ocubo.cpscetec.com.br/
+
 # Bem vindos ao curso introdutório de IoT do projeto O Cubo - CPS
 
 Termo introduzido pelo professor Kevin Ashton (MIT) em uma apresentação realizada na Procter & Gamble em 1999, o qual concebeu um sistema de sensores onipresentes conectando o mundo físico à Internet, enquanto trabalhava em identificação por rádio frequência (RFID).
