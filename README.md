@@ -6,7 +6,7 @@ Termo introduzido pelo professor Kevin Ashton (MIT) em uma apresentação realiz
 
 A Internet das Coisas emergiu dos avanços de várias áreas como sistemas embarcados, microeletrônica, comunicação e sensoriamento.
 
-Conhecimentos deseejáveis (mas não obrigatórios para  este curso :sunglasses:)
+Conhecimentos desejáveis (mas não obrigatórios para  este curso :sunglasses:)
 =================
 <!--ts-->
    * [Lógica de Programação]()
