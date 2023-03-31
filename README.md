@@ -6,20 +6,28 @@ Termo introduzido pelo professor Kevin Ashton (MIT) em uma apresentação realiz
 
 A Internet das Coisas emergiu dos avanços de várias áreas como sistemas embarcados, microeletrônica, comunicação e sensoriamento.
 
+Conhecimentos deseejáveis (mas não obrigatórios para  este curso :sunglasses:)
+=================
+<!--ts-->
+   * [Lógica de Programação]()
+   * [Linguagens de Programação]()
+   * [Noções de Eletrônica]()
+   * [Protocolos de Comunicação Web]()      
+   * [Cloud]()
+   
+<!--te-->
+
 Tópicos do curso
 =================
 <!--ts-->
-   * [Introdução ao mundo IoT](#Sobre)
-   * [Introdução à Eletrônica Básica](#tabela-de-conteudo)
-   * [Conhecendo Sensores e Atuadores](#instalacao)
-   * [XXXX](#como-usar)
-      * [XXXXXX](#pre-requisitos)
-      * [XXXXXX](#local-files)
-      * [XXXXXX](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
-   * [Tests](#testes)
-   * [Tecnologias](#tecnologias)
+   * [Introdução ao mundo IoT]()
+   * [Introdução à Eletrônica Básica]()
+   * [Conhecendo Sensores e Atuadores]()
+   * [Automação]()      
+   * [Parte 01 - Criando um protótipo de IoT com Arduino + Javascript + Firebase]()
+   * [Parte 02 - Criando um protótipo de IoT com Arduino + Javascript + Firebase]()
+   * [Parte 03 - Criando um protótipo de IoT com Arduino + Javascript + Firebase]()
+   * [Parte 04 - Criando um protótipo de IoT com Arduino + Javascript + Firebase]()
 <!--te-->
 
 
