@@ -34,5 +34,5 @@ Tópicos do curso
 
 Feito com ❤️ por Anderson Vanin 
 
-[![Linkedin Badge](https://img.shields.io/badge/-Anderson-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://br.linkedin.com/in/anderson-vanin/)](https://www.linkedin.com/in/tgmarinho/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Anderson-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://br.linkedin.com/in/anderson-vanin/)](https://br.linkedin.com/in/anderson-vanin) 
 [![Gmail Badge](https://img.shields.io/badge/-profandersonvanin01@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:profandersonvanin01@gmail.com)](mailto:profandersonvanin01@gmail.com)
