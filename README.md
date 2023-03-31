@@ -11,25 +11,25 @@ A Internet das Coisas emergiu dos avanços de várias áreas como sistemas embar
 Conhecimentos desejáveis (mas não obrigatórios para  este curso :sunglasses:)
 =================
 <!--ts-->
-   * [Lógica de Programação]()
-   * [Linguagens de Programação]()
-   * [Noções de Eletrônica]()
-   * [Protocolos de Comunicação Web]()      
-   * [Cloud]()
+   * [Lógica de Programação]
+   * [Linguagens de Programação]
+   * [Noções de Eletrônica]
+   * [Protocolos de Comunicação Web]      
+   * [Cloud]
    
 <!--te-->
 
 Tópicos do curso
 =================
 <!--ts-->
-   * [Introdução ao mundo IoT]()
-   * [Introdução à Eletrônica Básica]()
-   * [Conhecendo Sensores e Atuadores]()
-   * [Automação]()      
-   * [Parte 01 - Criando um protótipo de IoT com Arduino + Javascript + Firebase]()
-   * [Parte 02 - Criando um protótipo de IoT com Arduino + Javascript + Firebase]()
-   * [Parte 03 - Criando um protótipo de IoT com Arduino + Javascript + Firebase]()
-   * [Parte 04 - Criando um protótipo de IoT com Arduino + Javascript + Firebase]()
+   * [Introdução ao mundo IoT]
+   * [Introdução à Eletrônica Básica]
+   * [Conhecendo Sensores e Atuadores]
+   * [Automação]
+   * [Parte 01 - Criando um protótipo de IoT com Arduino + Javascript + Firebase]
+   * [Parte 02 - Criando um protótipo de IoT com Arduino + Javascript + Firebase]
+   * [Parte 03 - Criando um protótipo de IoT com Arduino + Javascript + Firebase]
+   * [Parte 04 - Criando um protótipo de IoT com Arduino + Javascript + Firebase]
 <!--te-->
 
 
