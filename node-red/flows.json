@@ -1,0 +1,247 @@
+[
+    {
+        "id": "9db158bde6091f70",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "465ec69b3f10f872",
+        "type": "arduino in",
+        "z": "9db158bde6091f70",
+        "name": "Potenciômetro",
+        "pin": "0",
+        "state": "ANALOG",
+        "arduino": "bfe9cc2cf4e239fe",
+        "x": 130,
+        "y": 80,
+        "wires": [
+            [
+                "5fa609ef7eb4d6ae",
+                "c66f4ecf51935546"
+            ]
+        ]
+    },
+    {
+        "id": "5fa609ef7eb4d6ae",
+        "type": "debug",
+        "z": "9db158bde6091f70",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "c66f4ecf51935546",
+        "type": "ui_gauge",
+        "z": "9db158bde6091f70",
+        "name": "",
+        "group": "467e4293d58b6d22",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1023",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 430,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "7a1f01503b5a3c41",
+        "type": "ui_button",
+        "z": "9db158bde6091f70",
+        "name": "",
+        "group": "467e4293d58b6d22",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "LIGA LED",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 240,
+        "wires": [
+            [
+                "0a902c826042e4db",
+                "36c3f67401bc5d35"
+            ]
+        ]
+    },
+    {
+        "id": "c91c94eb79c35045",
+        "type": "ui_button",
+        "z": "9db158bde6091f70",
+        "name": "",
+        "group": "467e4293d58b6d22",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "DESLIGA LED",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 140,
+        "y": 400,
+        "wires": [
+            [
+                "0a902c826042e4db",
+                "f4e46ed092b5608b"
+            ]
+        ]
+    },
+    {
+        "id": "0a902c826042e4db",
+        "type": "arduino out",
+        "z": "9db158bde6091f70",
+        "name": "LED",
+        "pin": "8",
+        "state": "OUTPUT",
+        "arduino": "bfe9cc2cf4e239fe",
+        "x": 470,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "d58f9c55853a4375",
+        "type": "ui_gauge",
+        "z": "9db158bde6091f70",
+        "name": "",
+        "group": "467e4293d58b6d22",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "LED",
+        "label": "ESTADO DO LED",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1",
+        "colors": [
+            "#ff0000",
+            "#e6e600",
+            "#00ff00"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 590,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "36c3f67401bc5d35",
+        "type": "change",
+        "z": "9db158bde6091f70",
+        "name": "MUDA PARA 1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 400,
+        "wires": [
+            [
+                "d58f9c55853a4375"
+            ]
+        ]
+    },
+    {
+        "id": "f4e46ed092b5608b",
+        "type": "change",
+        "z": "9db158bde6091f70",
+        "name": "MUDA PARA 0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 440,
+        "wires": [
+            [
+                "d58f9c55853a4375"
+            ]
+        ]
+    },
+    {
+        "id": "bfe9cc2cf4e239fe",
+        "type": "arduino-board",
+        "device": "COM7"
+    },
+    {
+        "id": "467e4293d58b6d22",
+        "type": "ui_group",
+        "name": "Laboratório Iot",
+        "tab": "6a1710b5a83eee18",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6a1710b5a83eee18",
+        "type": "ui_tab",
+        "name": "Potenciômetro",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
