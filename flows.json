@@ -1,0 +1,186 @@
+[
+    {
+        "id": "d96ec17751fe7054",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e697383ebc2716a2",
+        "type": "ui_button",
+        "z": "d96ec17751fe7054",
+        "name": "",
+        "group": "81b63acfa149a0bf",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "LIGAR LED",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 80,
+        "wires": [
+            [
+                "47fd2f3f5d9dccc1",
+                "62616a571ecccbce"
+            ]
+        ]
+    },
+    {
+        "id": "47fd2f3f5d9dccc1",
+        "type": "arduino out",
+        "z": "d96ec17751fe7054",
+        "name": "LED VERMELHO",
+        "pin": "8",
+        "state": "OUTPUT",
+        "arduino": "748e59c54b1dfbe8",
+        "x": 610,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "ae05f072ade84381",
+        "type": "ui_button",
+        "z": "d96ec17751fe7054",
+        "name": "",
+        "group": "81b63acfa149a0bf",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "DESLIGAR LED",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 160,
+        "y": 160,
+        "wires": [
+            [
+                "47fd2f3f5d9dccc1",
+                "d0b54e6a0265667b"
+            ]
+        ]
+    },
+    {
+        "id": "4e7edd1f2a166178",
+        "type": "ui_gauge",
+        "z": "d96ec17751fe7054",
+        "name": "",
+        "group": "81b63acfa149a0bf",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "LED VERMELHO",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1",
+        "colors": [
+            "#ff0000",
+            "#e6e600",
+            "#00ff00"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 730,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "62616a571ecccbce",
+        "type": "change",
+        "z": "d96ec17751fe7054",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 200,
+        "wires": [
+            [
+                "4e7edd1f2a166178"
+            ]
+        ]
+    },
+    {
+        "id": "d0b54e6a0265667b",
+        "type": "change",
+        "z": "d96ec17751fe7054",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 260,
+        "wires": [
+            [
+                "4e7edd1f2a166178"
+            ]
+        ]
+    },
+    {
+        "id": "81b63acfa149a0bf",
+        "type": "ui_group",
+        "name": "CURSO IOT",
+        "tab": "97d3caff6446c615",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "748e59c54b1dfbe8",
+        "type": "arduino-board",
+        "device": "COM7"
+    },
+    {
+        "id": "97d3caff6446c615",
+        "type": "ui_tab",
+        "name": "Laborotorio",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
